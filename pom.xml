@@ -3,7 +3,7 @@
   <groupId>exam</groupId>
   <artifactId>exam</artifactId>
   <version>1.0.0</version>
-  <packaging>war</packaging>
+  <packaging>ear</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -16,11 +16,10 @@
         </configuration>
       </plugin>
       <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.0.0</version>
-        <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
-        </configuration>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-ear-plugin</artifactId>
+         <version>2.10.1</version>
+         <type>maven-plugin</type>
       </plugin>
     </plugins>
   </build>
