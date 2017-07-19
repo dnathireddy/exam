@@ -3,7 +3,7 @@
   <groupId>exam</groupId>
   <artifactId>exam</artifactId>
   <version>1.0.0</version>
-  <packaging>ear</packaging>
+  <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
